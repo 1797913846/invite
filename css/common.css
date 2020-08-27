@@ -1,0 +1,48 @@
+body {
+    font-size: 1em;
+    font-family: "Microsoft YaHei";
+    color: #535353;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #374782;
+}
+
+input {
+    outline: none;
+}
+
+.login-input .radioStyle {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-top: 15px;
+}
+
+.login-input .resetLabel {
+    float: left;
+    width: 90px;
+}
+
+.login-input .resetLabel * {
+    float: left;
+}
+
+select {
+    height: 28px;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #ededed;
+    outline: none;
+    font-size: 1rem;
+    width: calc(100% - 104px);
+    margin-left: 10px;
+    color: #8B8F9B;
+}
